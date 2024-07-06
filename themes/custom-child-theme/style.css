@@ -1,0 +1,152 @@
+/*
+ Theme Name:  My Custom child Theme
+ Template: custom
+ Author: sneha
+ Version: 1.0
+*/
+
+@import url("../custom/style.css");
+
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    /* Stack form inputs vertically on smaller screens */
+    #pill-reminder-form label,
+    #pill-reminder-form input {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust padding or margins as needed */
+    #pill-reminder-form {
+        padding: 15px;
+    }
+}
+
+/* Example: Adjust for medium screens */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Example adjustments */
+}
+
+/* Example: Adjust for large screens */
+@media only screen and (min-width: 992px) {
+    /* Example adjustments */
+}
+
+
+/* Header Styles */
+.site-header {
+    background-color: #f8f9fa; /* Change background color as needed */
+    padding: 15px 0;
+    border-bottom: 1px solid #e9ecef; /* Optional: Add a bottom border */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-branding img {
+    height: auto;
+    max-height: 50px; /* Adjust maximum logo height as needed */
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-navigation li {
+    margin-left: 15px; /* Adjust spacing between menu items */
+}
+
+.main-navigation a {
+    color: #333; /* Menu link color */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.main-navigation a:hover {
+    color: #007bff; /* Hover color for links */
+}
+
+/* Reset default margins and paddings */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page banner container */
+.page-banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 300px; /* Adjust as needed based on your design */
+    background-color: #f0f0f0; /* Fallback background color */
+}
+
+/* Page banner image (thumbnail) */
+.page-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensure the image covers the entire banner */
+}
+
+/* Banner content overlay */
+.banner-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #ffffff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+}
+
+/* Container for content within the banner */
+.banner-content .container {
+    max-width: 1200px; /* Adjust maximum width as per your design */
+    margin: 0 auto; /* Center align content */
+}
+
+/* Page title */
+.page-title {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 10px; /* Space between title and breadcrumbs */
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Page content area */
+.page-content {
+    padding: 40px 0; /* Adjust padding as needed */
+    background-color: #ffffff; /* Background color for the page content area */
+}
+
+/* Container for page content */
+.page-content .container {
+    max-width: 800px; /* Adjust maximum width as per your design */
+    margin: 0 auto; /* Center align content */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .page-title {
+        font-size: 28px;
+    }
+    .banner-content {
+        padding: 10px;
+    }
+}

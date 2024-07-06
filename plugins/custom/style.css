@@ -1,0 +1,93 @@
+/* Add custom styles for the plugin here */
+#pill-reminder-form {
+    margin: 20px 0;
+}
+#pill-reminder-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+#pill-reminder-form input[type="text"],
+#pill-reminder-form input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+#pill-reminder-form input[type="submit"] {
+    padding: 10px 20px;
+}
+#pill-reminder-message {
+    margin-top: 10px;
+    color: green;
+}
+
+/* Page banner container */
+.page-banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 300px; /* Adjust as needed based on your design */
+    background-color: #f0f0f0; /* Fallback background color */
+}
+
+/* Page banner image (thumbnail) */
+.page-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensure the image covers the entire banner */
+}
+
+/* Banner content overlay */
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust width as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #ffffff; /* Text color */
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    text-align: center; /* Center align text */
+}
+
+/* Container for content within the banner */
+.banner-content .container {
+    max-width: 100%; /* Adjust maximum width as per your design */
+    margin: 0 auto; /* Center align content */
+}
+
+/* Page title */
+.page-title {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 10px; /* Space between title and breadcrumbs */
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Page content area */
+.page-content {
+    padding: 40px 0; /* Adjust padding as needed */
+    background-color: #ffffff; /* Background color for the page content area */
+}
+
+/* Container for page content */
+.page-content .container {
+    max-width: 800px; /* Adjust maximum width as per your design */
+    margin: 0 auto; /* Center align content */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .page-title {
+        font-size: 28px;
+    }
+    .banner-content {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,46 @@
+body {
+    font-size: 1rem; /* Default font size */
+}
+h1 {
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1rem;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 1200px) {
+    .pill-reminder {
+        padding: 20px;
+    }
+}
+@media (max-width: 992px) {
+    .pill-reminder {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .pill-reminder {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 576px) {
+    .pill-reminder {
+        padding: 5px;
+    }
+    h1 {
+        font-size: 1.25rem;
+    }
+}

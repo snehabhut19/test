@@ -1,0 +1,107 @@
+/* Styles for pill reminder plugin */
+#pill-reminder-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#pill-reminder-form {
+    margin-bottom: 20px;
+}
+
+#pill-reminder-form h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#pill-reminder-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#pill-reminder-form input[type="text"],
+#pill-reminder-form input[type="email"],
+#pill-reminder-form input[type="submit"],
+#pill-reminder-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#pill-reminder-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#pill-reminder-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#pill-reminder-form button {
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#pill-reminder-form button:hover {
+    background-color: #da190b;
+}
+
+#pill-reminder-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pill-reminder-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#pill-reminder-list li strong {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#pill-reminder-list li a {
+    margin-left: 10px;
+    color: #0073aa;
+    text-decoration: none;
+}
+
+#pill-reminder-list li a:hover {
+    text-decoration: underline;
+}
+
+#pill-reminder-message {
+    margin-top: 20px;
+}
+
+.notice {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.notice-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+@media screen and (max-width: 768px) {
+    #pill-reminder-container {
+        width: 90%;
+    }
+}
